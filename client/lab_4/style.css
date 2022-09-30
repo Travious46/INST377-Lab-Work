@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-h2 {
+h2, h3 {
   margin:0;
   padding:0;
   padding-bottom:1.5rem;
@@ -92,7 +92,7 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
+  /*background-color: #ffe08a;*/
   color: #4a4a4a;
 
   /* shapes */
@@ -104,6 +104,7 @@ form {
 
   /* box-shadows are fancy */
   box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  border: 4px dashed;
 }
 
 
@@ -128,18 +129,19 @@ form {
 }
 
 .left_section {
-  background-color: rgba(0, 139, 139, 0.8);
+  /*background-color: rgba(0, 139, 139, 0.8);*/
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  /*background-color: rgba(255, 224, 138, 0.7);*/
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
-  max-width: 450px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*
@@ -264,6 +266,10 @@ div.carousel {
 .prev:hover,
 .next:hover {
   background-color: #1094dc;/* Pick a good background colour for your hover pseudoclass */
+}
+
+.restuarant_list{
+  border: 2px dashed;
 }
 
 /*
