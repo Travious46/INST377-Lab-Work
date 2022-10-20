@@ -311,8 +311,9 @@ form label {
       align-items: center;
     }
 
-    .right_section{
+    .box{
+      width: 100%;
       align-items: flex-start;
-      display: flex;
     }
+    
 }
