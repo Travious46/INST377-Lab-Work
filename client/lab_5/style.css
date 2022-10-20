@@ -311,10 +311,11 @@
         align-items: center;
       }
   
-      .right_section{
+      .box{
+        width: 100%;
         align-items: flex-start;
-        display: flex;
       }
+      
   }
 
 /* In your #map rule, set map to display:none; to temporarily hide your map box */
