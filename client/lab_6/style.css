@@ -311,10 +311,11 @@ form label {
       align-items: center;
     }
 
-    .right_section{
+    .box{
+      width: 100%;
       align-items: flex-start;
-      display: flex;
     }
+    
 }
 
 /* 
@@ -328,6 +329,11 @@ form label {
     width: 80px;
     height: 80px;
   }
+
+  .lds-ellipsis_hidden {
+    display: hidden;
+  }
+
   .lds-ellipsis div {
     position: absolute;
     top: 33px;
